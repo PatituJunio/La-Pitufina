@@ -1,0 +1,1645 @@
+fileFormatVersion: 2
+guid: 414cbde8608d595499cd70cadb8d11eb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: barritasEnergeticas_0
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 595
+        width: 141
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10d23be4a445f0468d51e10fef6fdd3
+      internalID: -1805390985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_1
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 589
+        width: 130
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9a7a827fe70924bb0ad0b195bd1802
+      internalID: -1195000010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_2
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 595
+        width: 127
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19faee1fd39c5b48bb970865364f6e1
+      internalID: 245731693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_3
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 703
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227093e60cc82a74085517403b0d7d61
+      internalID: 1284522425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_4
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 712
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea2c58d4fd62984dbd68211f539536c
+      internalID: 276019302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_5
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 706
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d1a9a40bc19474fac5d40326740253
+      internalID: -1180608683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_6
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 706
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31514d36e15dd9b47a5188a02224d240
+      internalID: -1533159704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_7
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 615
+        width: 204
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538569bc9ad7a4443a76cea7209a1d26
+      internalID: 167374813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_8
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 596
+        width: 116
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dbaa954092149a4da5875e27e9ba4a4
+      internalID: -932882553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_9
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 686
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b316f309c6a55ef4a96b91c3b7cde31d
+      internalID: -1734954766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_10
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 695
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb8a2c931d7bd5439d8b9267ae78301
+      internalID: -1836049088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_11
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 689
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34460a245ddb2b24bae5fb5e45551cf4
+      internalID: -1812749959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 572
+        width: 192
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a1024bab840544d919097115e0262e
+      internalID: -915139024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_13
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 657
+        width: 63
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0fc42ea4e55a645ba6c832da2db233
+      internalID: -5476345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_14
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 668
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9fdd306d6a04744b3391b0a1353d9d
+      internalID: 1079532679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_15
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 636
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb1b594d17560649a6941ad7c4f0f4b
+      internalID: 723211966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_16
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 623
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962e9494ae3ae45429caec4af91699ab
+      internalID: -182293838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_17
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 460
+        width: 195
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91408582c960db4287f4d7327af4903
+      internalID: -1690488436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_18
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 460
+        width: 171
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d48e94787f8e93408d31ac12bceddc6
+      internalID: 193132985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_19
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 457
+        width: 124
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1238ea21b770748a7c59dedccf6b57
+      internalID: -769979588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_20
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 449
+        width: 105
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65cc0a6c3707bd44aa68f69487867ee1
+      internalID: -1353546241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_21
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 447
+        width: 103
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0aeba960b5fee4a9a556fb7da37db3
+      internalID: -1304359190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_22
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 549
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1627825c85576e4f8c057c432514e6e
+      internalID: -2141243195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_23
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 535
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75181fc2d7e7706468991caa85e2a7d8
+      internalID: -263404704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_24
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 466
+        width: 110
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abee487f91bb3cc4ebcdd4e08ddb5a7c
+      internalID: -2097522107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_25
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 500
+        width: 63
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f1bd724c3217d4cb8a91cf4c87c6e4
+      internalID: 1155197729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_26
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 446
+        width: 99
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be31aafec0f845439f748ca67eaa712
+      internalID: -299691940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_27
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 482
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672c4052f3cc12742a017f8648b31274
+      internalID: -382781913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_28
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 305
+        width: 149
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2595a22b8ce12bf4a9b0f0f705ba6b7a
+      internalID: -1883803344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_29
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 406
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda774ee427e32a4f84cabea3cf8306f
+      internalID: 1468745394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_30
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 404
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6878f4f3222b8d94d936c4ebb39f16b9
+      internalID: -1054941866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_31
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 400
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c191254b5556b4fb6250408013badf
+      internalID: -1052849819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_32
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 310
+        width: 194
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c001a90487f7bad4885b748a91c81bf1
+      internalID: 1540080245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_33
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 308
+        width: 171
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a398d3a576f8b74a8f204f139168e3a
+      internalID: -1491299736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_34
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 305
+        width: 111
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa6c22d945ceb048b9938615be1b848
+      internalID: 623774641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_35
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 394
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79388335a7f5f554c86077021e4473fa
+      internalID: 177196988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_36
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 302
+        width: 127
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895afd9d835e9ce4da8d541b1def0971
+      internalID: 1705415192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_37
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 310
+        width: 55
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca0dfabb86dd9746b1388fd3a8bcc90
+      internalID: 559536546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_38
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 386
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f5bf54bdd1faa4494bc4cd0fc297d1
+      internalID: -703253442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_39
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 321
+        width: 109
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e2696e25e9f18439e867425f63c558
+      internalID: -140589326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_40
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 354
+        width: 131
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ce7a9635d878a448d54ab43d28cad7
+      internalID: 1758698234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_41
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 378
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b402b5cb89f3ff04ba891dabaee6881e
+      internalID: -1437838550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_42
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 338
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc51e8b921bb7b469b94f3574673cff
+      internalID: -1363089068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 281
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6efd46d7cacaaf0469be96776ccf8a5f
+      internalID: -843730214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_44
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 304
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83c75f0c5c154740bdf58b14e4e0f22
+      internalID: -406627628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_45
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 173
+        width: 217
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b0128101cb89348b3e7f7f777ccdea
+      internalID: 1124657998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_46
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 163
+        width: 196
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1445f115dd816f3408eb3f5984ed54cd
+      internalID: 1951163480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_47
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 158
+        width: 178
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ebf4a544f0b4ff44991624f908c6d9f
+      internalID: 1552228423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_48
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 150
+        width: 279
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d31b67f3234f84eab4248ef547e369
+      internalID: 700974486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_49
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 237
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6796543dfee3c4e87fff838971fc8c
+      internalID: 1322571372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_50
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 134
+        width: 274
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de060f6e25bf6bb4498cc54f3c3ddb9b
+      internalID: -938371124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_51
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 194
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab5cfeeef75daa408e0947d97327425
+      internalID: -2123599203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 147
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a40e3665b669849b87182f758c9be1
+      internalID: -910514755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_53
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 161
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01919adde41f26f40b2f82c844d3adaf
+      internalID: -1376535430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_54
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 134
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb492dc00f985849b6c0dc1e71e40c9
+      internalID: -1201437684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_55
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 146
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a6a00b6560a334a99e9b4a21408bd0
+      internalID: -149799121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_56
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 59
+        width: 134
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65098740e47e9944ad58ee46b4058ed
+      internalID: 71043876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_57
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 119
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0effbe38397aba4bb822aa414887241
+      internalID: 945229941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_58
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 59
+        width: 62
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65dedf8bd4c1f0a44811aba4e4b5509b
+      internalID: 1584844185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_59
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 59
+        width: 127
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38eab667c86e785429a92b9298428d7d
+      internalID: -1840844912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_60
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 58
+        width: 220
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45006cf9fa16f34c8572588dd7f0f80
+      internalID: -1029109794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_61
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 59
+        width: 116
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61797636184b1c24a9460c0b1efc5ddb
+      internalID: -1922707692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_62
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 60
+        width: 65
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bc44e8028b99e4fa510a72f2c8a33b
+      internalID: 1034729500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_63
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 60
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedc713e86c22864fa0ff086be4f9aa5
+      internalID: 349487198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_64
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 60
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e45f192a63e94498af8243307096e2
+      internalID: -1399664873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_65
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 59
+        width: 118
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835753a3912b51644b003ce1de15f6d7
+      internalID: 1602633672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_66
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 21
+        width: 93
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f348e5b623981ba4aa9b261e55d988b7
+      internalID: 453228206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_67
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 21
+        width: 92
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ecd7e2ed98e784db0e8df8a0a0a763
+      internalID: -1277180085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barritasEnergeticas_68
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 21
+        width: 61
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6155605598ffb4b841b5369b7fac9a
+      internalID: 1207441562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      barritasEnergeticas_0: -1805390985
+      barritasEnergeticas_1: -1195000010
+      barritasEnergeticas_10: -1836049088
+      barritasEnergeticas_11: -1812749959
+      barritasEnergeticas_12: -915139024
+      barritasEnergeticas_13: -5476345
+      barritasEnergeticas_14: 1079532679
+      barritasEnergeticas_15: 723211966
+      barritasEnergeticas_16: -182293838
+      barritasEnergeticas_17: -1690488436
+      barritasEnergeticas_18: 193132985
+      barritasEnergeticas_19: -769979588
+      barritasEnergeticas_2: 245731693
+      barritasEnergeticas_20: -1353546241
+      barritasEnergeticas_21: -1304359190
+      barritasEnergeticas_22: -2141243195
+      barritasEnergeticas_23: -263404704
+      barritasEnergeticas_24: -2097522107
+      barritasEnergeticas_25: 1155197729
+      barritasEnergeticas_26: -299691940
+      barritasEnergeticas_27: -382781913
+      barritasEnergeticas_28: -1883803344
+      barritasEnergeticas_29: 1468745394
+      barritasEnergeticas_3: 1284522425
+      barritasEnergeticas_30: -1054941866
+      barritasEnergeticas_31: -1052849819
+      barritasEnergeticas_32: 1540080245
+      barritasEnergeticas_33: -1491299736
+      barritasEnergeticas_34: 623774641
+      barritasEnergeticas_35: 177196988
+      barritasEnergeticas_36: 1705415192
+      barritasEnergeticas_37: 559536546
+      barritasEnergeticas_38: -703253442
+      barritasEnergeticas_39: -140589326
+      barritasEnergeticas_4: 276019302
+      barritasEnergeticas_40: 1758698234
+      barritasEnergeticas_41: -1437838550
+      barritasEnergeticas_42: -1363089068
+      barritasEnergeticas_43: -843730214
+      barritasEnergeticas_44: -406627628
+      barritasEnergeticas_45: 1124657998
+      barritasEnergeticas_46: 1951163480
+      barritasEnergeticas_47: 1552228423
+      barritasEnergeticas_48: 700974486
+      barritasEnergeticas_49: 1322571372
+      barritasEnergeticas_5: -1180608683
+      barritasEnergeticas_50: -938371124
+      barritasEnergeticas_51: -2123599203
+      barritasEnergeticas_52: -910514755
+      barritasEnergeticas_53: -1376535430
+      barritasEnergeticas_54: -1201437684
+      barritasEnergeticas_55: -149799121
+      barritasEnergeticas_56: 71043876
+      barritasEnergeticas_57: 945229941
+      barritasEnergeticas_58: 1584844185
+      barritasEnergeticas_59: -1840844912
+      barritasEnergeticas_6: -1533159704
+      barritasEnergeticas_60: -1029109794
+      barritasEnergeticas_61: -1922707692
+      barritasEnergeticas_62: 1034729500
+      barritasEnergeticas_63: 349487198
+      barritasEnergeticas_64: -1399664873
+      barritasEnergeticas_65: 1602633672
+      barritasEnergeticas_66: 453228206
+      barritasEnergeticas_67: -1277180085
+      barritasEnergeticas_68: 1207441562
+      barritasEnergeticas_7: 167374813
+      barritasEnergeticas_8: -932882553
+      barritasEnergeticas_9: -1734954766
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
