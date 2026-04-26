@@ -17,6 +17,14 @@ public class GameManager : MonoBehaviour
     public TMP_Text textoPuntos;
     public TMP_Text textoEnergia;
 
+
+
+    [Header("Sonidos")]
+    public AudioClip comiendoBarritaSound;
+    public AudioClip lobocomiendoaPituSound;
+    private AudioSource playerAudio;
+
+
     private void Awake()
     {
         // Configurar el Singleton
@@ -33,12 +41,24 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         ActualizarUI();
-    }
+        playerAudio = GetComponent<AudioSource>();
+     }
 
-    public void PerderVida(bool enAgua)
+public void PerderVida(bool enAgua)
     {
         vidas--;
         ActualizarUI();
+
+        if (playerAudio != null && lobocomiendoaPituSound != null)
+        {
+            playerAudio.PlayOneShot(lobocomiendoaPituSound, 0.8f);
+        }
+        else
+        {
+            Debug.LogWarning("Falta el AudioSource o el AudioClip para el lobo quita vida.");
+        }
+
+
         if (vidas <= 0 ||  enAgua)
         {
             ReiniciarJuego();
@@ -48,6 +68,15 @@ public class GameManager : MonoBehaviour
     public void sumarEnergia(int cantidad)
     {
         energia += cantidad;
+        if (playerAudio != null && comiendoBarritaSound != null)
+        {
+            playerAudio.PlayOneShot(comiendoBarritaSound, 0.8f);
+        }
+        else
+        {
+            Debug.LogWarning("Falta el AudioSource o el AudioClip para comer barrita.");
+        }
+
         ActualizarUI();
     }
     public void SumarPuntos(int cantidad)

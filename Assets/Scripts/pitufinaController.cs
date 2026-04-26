@@ -16,14 +16,24 @@ public class pitufinaController : MonoBehaviour
     public Transform groundCheck;
     public float groundCheckRadius = 0.2f;
 
+
+
+
+    [Header("Sonidos")]
+    public AudioClip jumpSound;
+
+
     private Rigidbody2D rb;
     private float currentSpeed = 0f;
     private bool isGrounded;
     float  velocidad = 0.01f;
 
+    private AudioSource playerAudio;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>(); // Esto hace que rb ahora sea el rigidbody del objeto que tiene el script
+        playerAudio = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -59,6 +69,16 @@ public class pitufinaController : MonoBehaviour
             }
 
             rb.velocity = new Vector2(rb.velocity.x, finalJumpForce);
+
+          
+            if (playerAudio != null && jumpSound != null)
+            {
+                playerAudio.PlayOneShot(jumpSound, 0.8f);
+            }
+            else
+            {
+                Debug.LogWarning("Falta el AudioSource o el AudioClip en Pitufina.");
+            }
         }
 
 
@@ -87,4 +107,7 @@ public class pitufinaController : MonoBehaviour
             GameManager.instance.PerderVida(false); // Llama al controlador
         }
     }
+
+
+
 }
