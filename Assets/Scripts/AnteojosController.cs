@@ -15,7 +15,7 @@ public class AnteojosController : MonoBehaviour
         {
 
            
-            GameManager.instance.ActivarAnteojos(); // Llama al controlador
+            GameManagerController.instance.ActivarAnteojos(); // Llama al controlador
             Destroy(gameObject);
 
         }

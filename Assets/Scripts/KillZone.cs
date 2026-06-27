@@ -10,7 +10,7 @@ public class KillZone : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Player"))//si cae la pitu pierde vida
         {
-            GameManager.instance.PerderVida(true); // Llama al controlador
+            GameManagerController.instance.PerderVida(true); // Llama al controlador
         }
         else {
             Destroy(collision.gameObject);

@@ -16,8 +16,8 @@ public class pitufinaController : MonoBehaviour
     public Transform groundCheck;
     public float groundCheckRadius = 0.2f;
 
-
-
+    [SerializeField]
+    private Animator animator;
 
     [Header("Sonidos")]
     public AudioClip jumpSound;
@@ -44,13 +44,21 @@ public class pitufinaController : MonoBehaviour
 
         // Velocidad objetivo
         float targetSpeed = moveInput * maxSpeed;
-        if (isRunning) targetSpeed *= runMultiplier;
+        if (isRunning)
+        {
+            targetSpeed *= runMultiplier;
+        }
+
 
         // Aceleración y desaceleración suave
         if (Mathf.Abs(targetSpeed) > Mathf.Abs(currentSpeed))
+        {
             currentSpeed = Mathf.MoveTowards(currentSpeed, targetSpeed, acceleration * Time.deltaTime);
+        }
         else
+        {
             currentSpeed = Mathf.MoveTowards(currentSpeed, targetSpeed, deceleration * Time.deltaTime);
+        }
 
         // Aplicar velocidad horizontal
         rb.velocity = new Vector2(currentSpeed, rb.velocity.y);
@@ -73,7 +81,7 @@ public class pitufinaController : MonoBehaviour
           
             if (playerAudio != null && jumpSound != null)
             {
-                playerAudio.PlayOneShot(jumpSound, 0.8f);
+                playerAudio.PlayOneShot(jumpSound, 1.8f);
             }
             else
             {
@@ -86,19 +94,36 @@ public class pitufinaController : MonoBehaviour
 
         // invertir sprite según dirección
         if (moveInput > 0)
+        {
             transform.localScale = new Vector3(1, 1, 1); // Mirando a la derecha
+        }
         else if (moveInput < 0)
+        {
             transform.localScale = new Vector3(-1, 1, 1); // Mirando a la izquierda
-                                                          // aca termina la parte que invierte el script
+        }
+        // aca termina la parte que invierte el script
 
         if (Input.GetKey(KeyCode.W))
         {
             transform.Translate(new Vector3(0, velocidad, 0));
         }
 
-        
+        if (isRunning)
+        {
 
-        
+            animator.Play("PituCorriendo");
+        }
+        else if (currentSpeed > 0f)
+        {
+
+            animator.Play("PituAndando");
+        }
+        else
+        {
+            animator.Play("PituIddle");
+        }
+
+
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

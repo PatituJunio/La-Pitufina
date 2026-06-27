@@ -14,9 +14,9 @@ public class EnergiaController : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
 
-
+            GameManagerController.instance.PlayBarritaSound();
+            GameManagerController.instance.sumarEnergia(10);
             
-            GameManager.instance.sumarEnergia(1); // Llama al controlador
             Destroy(gameObject);
 
         }

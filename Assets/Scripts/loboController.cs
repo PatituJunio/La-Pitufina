@@ -14,7 +14,10 @@ public class loboController : MonoBehaviour
     float velocidad = 0.5f;
     void Update()
     {
-        if (player == null) return;
+        if (player == null)
+        {
+            return;
+        }
 
         // 1. Calculamos el vector de dirección desde el enemigo hacia el jugador
         Vector3 directionToPlayer = (player.position - transform.position).normalized;
@@ -39,6 +42,20 @@ public class loboController : MonoBehaviour
 
         // Suavizamos la rotación usando Slerp (Interpolación esférica)
         transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+    }
+
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+
+            GameManagerController.instance.PlayLoboSound();
+            GameManagerController.instance.PerderVida(false);
+
+            Destroy(gameObject);
+
+        }
     }
 }
 
